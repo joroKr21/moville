@@ -1,0 +1,86 @@
+/* 
+    Document   : registration
+    Created on : Oct 18, 2012, 8:58:01 AM
+    Author     : Joro
+    Description:
+        Stylesheet for the registration page
+*/
+
+/* --------------------COLOR TABLE--------------------------- */
+
+/* Black: #222222 */
+/* Gray: #dddddd */
+/* Shadow Gray: #c9c9c9 */
+/* Dark Gray: #777777 */
+/* Blue: #0B96D0 */
+
+/* -------------------ELEMENTS STYLING---------------------------- */
+
+fieldset {
+    display: inline-block;
+    vertical-align: top;
+    width: 425px;
+    margin: 25px;
+}
+
+fieldset hr {
+    height: 2px;
+    margin-bottom: 1.2em;
+    margin-top: 0.4em;
+    padding-left: 0.8em;
+}
+
+legend {
+    font-weight: bold;
+}
+
+select {
+    width: 45%;
+    height: 2.4em;
+    margin: 0.4em 0 0.8em 0;
+}
+
+input[type=text], input[type=email], input[type=password], textarea {
+    width: 100%;
+    height: 1.5em;
+    margin: 0.4em 0 0.8em 0;
+}
+
+textarea {
+    font-family: inherit;
+    height: 11.5em;
+    resize: vertical;
+}
+
+input[type=radio], input[type=checkbox] {
+    margin: 0.4em 0.2em 0.5em 0.8em;
+}
+
+input[type=date] {
+    width: 50%;
+    height: 1.5em;
+    margin: 0.4em 0 0.8em 0;
+    padding-right: 0;
+}
+
+input[type=submit] {
+    margin-right: 25px;
+    height: 2.2em;
+    width: 10em;
+}
+
+form#registration_form {
+    color: #222222;
+}
+
+div#auth a#registration_link {
+    color: #0B96D0;
+}
+
+label#country {
+    margin-left: 5em;
+}
+
+label#sex {
+    margin-left: 7.5em
+}

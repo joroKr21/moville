@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Moville</title>
+        <meta charset="utf-8" />
+        <meta name="author" content="Georgi Krastev" />
+        <meta name="description" content="This page gives information about interesting and featured movies" />
+        <meta name="keywords" content="moville, movie, film, cinema, featured" />
+        <link rel="author" href="humans.txt" />
+        <link rel="stylesheet" type="text/css" href="css/reset.css" />
+        <link rel="stylesheet" type="text/css" href="css/main.css" />
+        <link rel="stylesheet" type="text/css" href="css/registration.css" />
+        <link rel="shortcut icon" href="images/videos.ico" />
+    </head>
+    <body>
+        <div id="top_menu">
+            <div id="auth">
+                <a id="login_link" href="#">Login</a>
+                <a id="registration_link" href="registration.html">Registration</a>
+            </div>
+        </div>
+        <img id="camera" src="images/camera.png" />
+        <div id="big_wrap">
+            <header>
+                <h1 id="logo"><a id="home" href="index.html">Moville</a></h1>
+                <nav id="menu">
+                    <a href="index.html#featured">Featured</a>
+                    <a href="index.html#latest_posts">Latest Posts</a>
+                    <a href="index.html#contacts">Contacts</a>
+                </nav>
+            </header>
+            <h1>Registration</h1><hr/>
+            <form id="registration_form" name="registration_form" method="POST">
+                <fieldset>
+                    <legend>Personal details</legend><hr/>
+                    <label for="alias">Alias</label><br/>
+                    <input type="text" id="alias" name="alias" autocomplete="on" autofocus="autofocus" required="required" placeholder="Your stage name" /><br/>
+                    <label for="name">Name</label><br/>
+                    <input type="text" id="name" name="name" autocomplete="on" required="required" placeholder="Your real name" /><br/>
+                    <label for="email">Email</label><br/>
+                    <input type="email" id="email" name="email" autocomplete="on" required="required" placeholder="Will be used to login" /><br/>                    
+                    <label for="birthday">Date of birth</label>
+                    <label id="sex">Sex</label><br/>
+                    <input type="date" id="birthday" name="birthday" />
+                    <input type="radio" id="male" name="sex" value="m" />
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="sex" value="f" />
+                    <label for="female">Female</label><br/>
+                    <label for="password">Password</label><br/>
+                    <input type="password" id="password" name="password" autocomplete="off" required="required" placeholder="Do not use your birthday!" /><br/>
+                    <label for="password_again">Password again</label><br/>
+                    <input type="password" id="password_again" name="password_again" autocomplete="off" required="required" placeholder="Passwords must match" /><br/>
+                </fieldset>
+                <fieldset>
+                    <legend>More about yourself</legend><hr/>
+                    <label for="genre">Favorite genre</label>
+                    <label id="country">Movies from</label><br/>
+                    <select id="genre">
+                        <option value="Action">Action</option>
+                        <option value="Adventure">Adventure</option>
+                        <option value="Animation">Animation</option>
+                        <option value="Comedies">Comedies</option>
+                        <option value="Crime & Gangster">Crime & Gangster</option>
+                        <option value="Drama">Drama</option>
+                        <option value="History">History</option>
+                        <option value="Horror">Horror</option>
+                        <option value="Musicals / Dance">Musicals / Dance</option>
+                        <option value="Sci-Fi">Sci-Fi</option>
+                        <option value="Thrillers">Thrillers</option>
+                        <option value="War films">War films</option>
+                        <option value="Westerns">Westerns</option>
+                    </select>
+                    <input type="checkbox" id="usa" name="usa" value="USA" />
+                    <label for="usa">USA</label>
+                    <input type="checkbox" id="europe" name="europe" value="Europe" />
+                    <label for="europe">Europe</label>
+                    <input type="checkbox" id="asia" name="asia" value="Asia" />
+                    <label for="asia">Asia</label><br/>
+                    <label for="actors">Favorite actors</label><br/>
+                    <input type="text" id="actors" name="actors" autocomplete="off" placeholder="Who do you admire?" /><br/>
+                    <label for="character">Favorite movie character</label><br/>
+                    <input type="text" id="character" name="character" placeholder="Who is your favorite movie character?" /><br/>
+                    <label>More about you</label><br/>
+                    <textarea id="description" name="description" placeholder="Other biographical data..."></textarea>
+                </fieldset>
+                <span class="right"><input type="submit" value="Register me!" /></span>
+            </form>
+            <footer id="contacts" class="clearfix">
+                <hr/><p>[WWW Технологии 2012] Георги Кръстев (фн 61368) <span class="right">ФМИ 2012</span></p>
+            </footer>
+        </div>
+    </body>
+</html>

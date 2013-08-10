@@ -1,0 +1,118 @@
+/* 
+    Document   : index.css
+    Created on : Oct 18, 2012, 8:11:42 AM
+    Author     : Joro
+    Description:
+        Stylesheet for the index page
+*/
+
+/* --------------------COLOR TABLE--------------------------- */
+
+/* Black: #222222 */
+/* Gray: #dddddd */
+/* Shadow Gray: #c9c9c9 */
+/* Dark Gray: #777777 */
+/* Blue: #0B96D0 */
+
+/* -------------------ELEMENTS STYLING---------------------------- */
+
+#latest_posts {
+    float: left;
+    width: 685px;
+}
+
+aside {
+    float: right;
+    width: 260px;
+    margin-left: 15px;
+}
+
+aside h1 {
+    text-align: right;
+}
+
+article {
+    display: inline-block;
+    vertical-align: top;
+}
+
+#featured article {
+    margin: 25px 20px 35px 0;
+    width: 303px;
+}
+
+#featured article:nth-of-type(3n) {
+    margin-right: 0;
+}
+
+#latest_posts article {
+    margin: 10px 7px 20px 0;
+    width: 162px;
+}
+
+#latest_posts article:nth-of-type(4n) {
+    margin-right: 0;
+}
+
+div.cover_wrap {
+    position: relative;
+    box-shadow: 0 0 5px #c9c9c9;
+}
+
+div.cover_wrap:hover {
+    box-shadow: 0 0 5px #0B96D0;
+}
+
+div.movie_title {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.75);
+    width: 100%;
+    height: 30px;
+}
+
+div.movie_title:hover {
+    background-color: black;
+}
+
+form#search_form {
+    margin-top: 1em;
+    margin-bottom: 1.5em;
+}
+
+#sterm {
+    width: 70%;
+    height: 1.2em;
+}
+
+#go {
+    width: 15%;
+    height: 2.2em;
+    margin-left: 5%;
+    font-weight: bold;
+}
+
+ul {
+    margin-bottom: 1.5em;
+}
+
+li {
+    font-size: 0.9em;
+}
+
+li a {
+    color: #222222;
+    text-decoration: none;
+    line-height: 200%;
+}
+
+li a:hover {
+    color: #0B96D0;
+}
+
+li p {
+    font-size: 0.9em;
+    margin-top: 0.8em;
+    margin-bottom: 0.8em;
+}

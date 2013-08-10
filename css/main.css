@@ -1,0 +1,196 @@
+/* 
+    Document   : main
+    Created on : Oct 17, 2012, 2:45:30 AM
+    Author     : Joro
+    Description:
+        Main stylesheet
+*/
+
+/* --------------------COLOR TABLE--------------------------- */
+
+/* Black: #222222 */
+/* Gray: #dddddd */
+/* Shadow Gray: #c9c9c9 */
+/* Dark Gray: #777777 */
+/* Blue: #0B96D0 */
+
+/* -------------------ELEMENTS STYLING---------------------------- */
+
+body {
+    background-image: url("../images/ice_age.png");
+    text-align: center;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+    color: #222222;
+}
+
+header {
+    margin-top: 35px;
+    margin-bottom: 35px;
+    position: relative;
+}
+
+a {
+    color: #222222;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0B96D0;
+}
+
+nav {
+    display: inline;
+    position: absolute;
+    right: 0;
+    top: 1em;
+}
+
+nav a {
+    font-size: 0.8em;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left: 2em;
+}
+
+h1 {
+    font-size: 1.15em;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 0.4em;
+    margin-bottom: 0.4em;
+}
+
+h2 {
+    color: #0B96D0;
+    font-size: 0.8em;
+    font-weight: bold;
+    margin: 0.4em 0 0.4em 1em;
+}
+
+h3 {
+    color: #777777;
+    font-size: 0.8em;
+    font-weight: normal;
+    margin-top: 0.4em;
+    margin-bottom: 0.4em;
+}
+
+hr {
+    height: 1px;
+    border: none;
+    background-color: #c9c9c9;
+    box-shadow: 0 0 1px #c9c9c9;
+    width: 100%;
+}
+
+h1 + hr {
+    height: 4px;
+}
+
+p {
+    font-size: 0.75em;
+    line-height: 150%;
+    text-align: justify;
+}
+
+img {
+    vertical-align: top;
+}
+
+footer {
+    font-size: 0.9em;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+footer hr {
+    margin-bottom: 1em;
+}
+
+input, textarea, select {
+    border: 1px solid #dddddd;
+    border-radius: 3px;
+    box-shadow: 0 0 3px #c9c9c9;
+    padding: 0.4em;
+    font-size: 0.9em;
+    background-color: white;
+}
+
+input:hover, textarea:hover, select:hover {
+    border: 1px solid #c9c9c9;
+}
+
+input:focus, textarea:focus, select:focus {
+    box-shadow: 0 0 5px #0B96D0 inset;
+    outline: none;
+}
+
+input[type=button]:active, input[type=submit]:active {
+    box-shadow: 0 0 0.5em #0B96D0;
+}
+
+input[type=radio]:checked, input[type=checkbox]:checked {
+    box-shadow: 0 0 3px #0B96D0;
+}
+
+span.right {
+    float: right;
+}
+
+div#top_menu {
+    background-image: url("../images/navy_blue.png");
+    position: fixed;
+    top: 0;
+    text-align: center;
+    border-bottom: 1px solid #c9c9c9;
+    box-shadow: 0 0 15px #c9c9c9;
+    height: 50px;
+    width: 100%;
+    color: white;
+    z-index: 2;
+}
+
+div#auth {
+    width: 960px;
+    margin: auto;
+    padding: 15px 35px;
+    text-align: right;
+}
+
+div#auth a {
+    color: white;
+    font-size: 0.8em;
+    font-weight: bold;
+    margin-left: 2em;
+}
+
+div#auth a:hover {
+    color: #0B96D0;
+}
+
+div#big_wrap {
+    background-image: url("../images/blizzard.png");
+    margin: auto;
+    padding: 35px;
+    margin-top: 15px;
+    text-align: left;
+    width: 960px;
+    border-left: 1px solid #c9c9c9;
+    border-right: 1px solid #c9c9c9;
+    box-shadow: 0 0 15px #c9c9c9;
+}
+
+#logo {
+    display: inline;
+    font-size: 2.2em;
+    font-family: Broadway, fantasy;
+}
+
+#camera {
+    position: absolute;
+    left: 50%;
+    top: 75px;
+    width: 80px;
+    height: 65px;
+    z-index: 1;
+}
